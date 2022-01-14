@@ -13,6 +13,10 @@ bool isLeapYear(int year) {
 
 }
 
+void addDaysToDate(int month, int day, int year) {
+    
+}
+
 int main() {
 
     int year;
@@ -20,7 +24,7 @@ int main() {
     scanf("%d", &year);
 
     int conclusion = isLeapYear(year);
-    
+
 
     printf("Is the year %d a leap year?: %d\n", year, conclusion);
 
